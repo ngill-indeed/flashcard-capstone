@@ -32,7 +32,7 @@ function Card({ card }){
                 <Link to={`${url}/cards/${card.id}/edit`}>
                     <button type="button" className="p-2 btn btn-secondary mt-4">Edit</button>
                 </Link>
-                <button type="button" className="ml-3 p-2 bd-highlight btn btn-outline-danger mt-4" onClick={handleDelete}></button>
+                <button type="button" className="ml-3 p-2 bd-highlight btn btn-outline-danger mt-4" onClick={handleDelete} style={{width:100}}>Delete</button>
             </div>
         </div>
     )
